@@ -6,6 +6,7 @@
 //  Copyright © 2020 Fernando Frances . All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 final class WatchListsRepository {
@@ -23,6 +24,16 @@ final class WatchListsRepository {
             } else {
                 completion(watchListPage, nil)
             }
+        }
+    }
+    
+    func mappedResultsForNewOrientation(results: [WatchList]) -> [WatchList] {
+        if UIDevice.current.orientation.isLandscape {
+            return results
+                .map { WatchList(id: $0.id, title: $0.title, tabs: $0.tabs.filter { $0.id % 2 == 0 } ) }
+                .filter { $0.tabs.count != 0 }
+        } else {
+            return results
         }
     }
 }

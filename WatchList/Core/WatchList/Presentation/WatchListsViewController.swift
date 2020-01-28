@@ -34,7 +34,7 @@ class WatchListsViewController: UIViewController {
     
     override func willTransition(to newCollection: UITraitCollection,
                                  with coordinator: UIViewControllerTransitionCoordinator) {
-        presenter.mapResultsDependingOnOrientation()
+        presenter.orientationDidChange()
         tableView.reloadData()
     }
 

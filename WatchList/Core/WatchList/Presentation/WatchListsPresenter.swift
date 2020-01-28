@@ -19,11 +19,7 @@ protocol WatchListsView: class {
 final class WatchListsPresenter {
     
     private let repository: WatchListsRepository
-    private var results: [WatchList] = [] {
-        didSet {
-            mapResultsDependingOnOrientation()
-        }
-    }
+    private var results: [WatchList] = []
     var mappedResults: [WatchList] = []
     
     weak var view: WatchListsView?
@@ -38,14 +34,8 @@ final class WatchListsPresenter {
         loadContent()
     }
     
-    func mapResultsDependingOnOrientation() {
-        if UIDevice.current.orientation.isLandscape {
-            mappedResults = results
-                .map { WatchList(id: $0.id, title: $0.title, tabs: $0.tabs.filter { $0.id % 2 == 0 } ) }
-                .filter { $0.tabs.count != 0 }
-        } else {
-            mappedResults = results
-        }
+    func orientationDidChange() {
+        mappedResults = repository.mappedResultsForNewOrientation(results: results)
     }
     
 }
@@ -58,6 +48,7 @@ private extension WatchListsPresenter {
             } else {
                 guard let watchListPage = watchListPage else { return }
                 self.results = watchListPage.results
+                self.mappedResults = self.repository.mappedResultsForNewOrientation(results: self.results)
                 self.view?.update()
             }
         }
