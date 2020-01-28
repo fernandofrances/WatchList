@@ -12,11 +12,25 @@
 		E044928823DF5B67005882F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E044928723DF5B67005882F9 /* Assets.xcassets */; };
 		E044928B23DF5B67005882F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E044928923DF5B67005882F9 /* LaunchScreen.storyboard */; };
 		E044929623DF5B67005882F9 /* WatchListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E044929523DF5B67005882F9 /* WatchListTests.swift */; };
-		E04492A223DF5D44005882F9 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492A023DF5D44005882F9 /* WatchListViewController.swift */; };
-		E04492A323DF5D44005882F9 /* WatchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04492A123DF5D44005882F9 /* WatchListViewController.xib */; };
 		E04492A723DF5F6D005882F9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492A623DF5F6D005882F9 /* Endpoint.swift */; };
 		E04492A923DF6A62005882F9 /* WebServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492A823DF6A62005882F9 /* WebServiceConfiguration.swift */; };
 		E04492AB23DF6BD7005882F9 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492AA23DF6BD7005882F9 /* WebService.swift */; };
+		E04492B323DF7442005882F9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492B223DF7442005882F9 /* Tab.swift */; };
+		E04492B523DF750A005882F9 /* WatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492B423DF750A005882F9 /* WatchList.swift */; };
+		E04492B723DF757C005882F9 /* WatchListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492B623DF757C005882F9 /* WatchListPage.swift */; };
+		E04492BB23DF7CA9005882F9 /* WatchListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492BA23DF7CA9005882F9 /* WatchListRepository.swift */; };
+		E04492BD23DF7CB7005882F9 /* WatchListsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492BC23DF7CB7005882F9 /* WatchListsPresenter.swift */; };
+		E04492C223DF80AD005882F9 /* WatchListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492C023DF80AD005882F9 /* WatchListsViewController.swift */; };
+		E04492C323DF80AD005882F9 /* WatchListsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04492C123DF80AD005882F9 /* WatchListsViewController.xib */; };
+		E04492C823DF8275005882F9 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492C723DF8275005882F9 /* ReusableView.swift */; };
+		E04492CB23DF82F2005882F9 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492C923DF82F2005882F9 /* TabCell.swift */; };
+		E04492CC23DF82F2005882F9 /* TabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04492CA23DF82F2005882F9 /* TabCell.xib */; };
+		E04492CE23DF90F3005882F9 /* WatchListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492CD23DF90F3005882F9 /* WatchListHeader.swift */; };
+		E04492D023DF90FF005882F9 /* WatchListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E04492CF23DF90FF005882F9 /* WatchListHeader.xib */; };
+		E04492D223DF933F005882F9 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492D123DF933F005882F9 /* NibLoadableView.swift */; };
+		E04492D423DF9580005882F9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492D323DF9580005882F9 /* UITableView+Reusable.swift */; };
+		E04492D623DF99FD005882F9 /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492D523DF99FD005882F9 /* String+Date.swift */; };
+		E04492D923DFB00E005882F9 /* WatchListsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04492D823DFB00E005882F9 /* WatchListsAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +53,25 @@
 		E044929123DF5B67005882F9 /* WatchListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E044929523DF5B67005882F9 /* WatchListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTests.swift; sourceTree = "<group>"; };
 		E044929723DF5B67005882F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E04492A023DF5D44005882F9 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
-		E04492A123DF5D44005882F9 /* WatchListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchListViewController.xib; sourceTree = "<group>"; };
 		E04492A623DF5F6D005882F9 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		E04492A823DF6A62005882F9 /* WebServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceConfiguration.swift; sourceTree = "<group>"; };
 		E04492AA23DF6BD7005882F9 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E04492B223DF7442005882F9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		E04492B423DF750A005882F9 /* WatchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchList.swift; sourceTree = "<group>"; };
+		E04492B623DF757C005882F9 /* WatchListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListPage.swift; sourceTree = "<group>"; };
+		E04492BA23DF7CA9005882F9 /* WatchListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListRepository.swift; sourceTree = "<group>"; };
+		E04492BC23DF7CB7005882F9 /* WatchListsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListsPresenter.swift; sourceTree = "<group>"; };
+		E04492C023DF80AD005882F9 /* WatchListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListsViewController.swift; sourceTree = "<group>"; };
+		E04492C123DF80AD005882F9 /* WatchListsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchListsViewController.xib; sourceTree = "<group>"; };
+		E04492C723DF8275005882F9 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		E04492C923DF82F2005882F9 /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		E04492CA23DF82F2005882F9 /* TabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabCell.xib; sourceTree = "<group>"; };
+		E04492CD23DF90F3005882F9 /* WatchListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListHeader.swift; sourceTree = "<group>"; };
+		E04492CF23DF90FF005882F9 /* WatchListHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchListHeader.xib; sourceTree = "<group>"; };
+		E04492D123DF933F005882F9 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		E04492D323DF9580005882F9 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		E04492D523DF99FD005882F9 /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		E04492D823DFB00E005882F9 /* WatchListsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListsAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +119,6 @@
 				E044928723DF5B67005882F9 /* Assets.xcassets */,
 				E044928923DF5B67005882F9 /* LaunchScreen.storyboard */,
 				E044928C23DF5B67005882F9 /* Info.plist */,
-				E04492A023DF5D44005882F9 /* WatchListViewController.swift */,
-				E04492A123DF5D44005882F9 /* WatchListViewController.xib */,
 			);
 			path = WatchList;
 			sourceTree = "<group>";
@@ -109,6 +135,8 @@
 		E04492A423DF5F0D005882F9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E04492B023DF7435005882F9 /* Common */,
+				E04492AC23DF73B3005882F9 /* WatchList */,
 				E04492A523DF5F2C005882F9 /* WebService */,
 			);
 			path = Core;
@@ -122,6 +150,84 @@
 				E04492AA23DF6BD7005882F9 /* WebService.swift */,
 			);
 			path = WebService;
+			sourceTree = "<group>";
+		};
+		E04492AC23DF73B3005882F9 /* WatchList */ = {
+			isa = PBXGroup;
+			children = (
+				E04492D723DFAFFD005882F9 /* DI */,
+				E04492AF23DF73DD005882F9 /* Repository */,
+				E04492AE23DF73D2005882F9 /* Presentation */,
+				E04492AD23DF73CC005882F9 /* Domain */,
+			);
+			path = WatchList;
+			sourceTree = "<group>";
+		};
+		E04492AD23DF73CC005882F9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E04492AE23DF73D2005882F9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E04492BC23DF7CB7005882F9 /* WatchListsPresenter.swift */,
+				E04492C023DF80AD005882F9 /* WatchListsViewController.swift */,
+				E04492C123DF80AD005882F9 /* WatchListsViewController.xib */,
+				E04492C923DF82F2005882F9 /* TabCell.swift */,
+				E04492CA23DF82F2005882F9 /* TabCell.xib */,
+				E04492CD23DF90F3005882F9 /* WatchListHeader.swift */,
+				E04492CF23DF90FF005882F9 /* WatchListHeader.xib */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E04492AF23DF73DD005882F9 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E04492BA23DF7CA9005882F9 /* WatchListRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E04492B023DF7435005882F9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E04492C623DF8265005882F9 /* Utilities */,
+				E04492B123DF743A005882F9 /* Domain */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E04492B123DF743A005882F9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E04492B223DF7442005882F9 /* Tab.swift */,
+				E04492B423DF750A005882F9 /* WatchList.swift */,
+				E04492B623DF757C005882F9 /* WatchListPage.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E04492C623DF8265005882F9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E04492C723DF8275005882F9 /* ReusableView.swift */,
+				E04492D123DF933F005882F9 /* NibLoadableView.swift */,
+				E04492D323DF9580005882F9 /* UITableView+Reusable.swift */,
+				E04492D523DF99FD005882F9 /* String+Date.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E04492D723DFAFFD005882F9 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				E04492D823DFB00E005882F9 /* WatchListsAssembly.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,9 +311,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04492A323DF5D44005882F9 /* WatchListViewController.xib in Resources */,
 				E044928B23DF5B67005882F9 /* LaunchScreen.storyboard in Resources */,
+				E04492C323DF80AD005882F9 /* WatchListsViewController.xib in Resources */,
+				E04492D023DF90FF005882F9 /* WatchListHeader.xib in Resources */,
 				E044928823DF5B67005882F9 /* Assets.xcassets in Resources */,
+				E04492CC23DF82F2005882F9 /* TabCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +334,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04492AB23DF6BD7005882F9 /* WebService.swift in Sources */,
+				E04492BB23DF7CA9005882F9 /* WatchListRepository.swift in Sources */,
 				E04492A923DF6A62005882F9 /* WebServiceConfiguration.swift in Sources */,
+				E04492C823DF8275005882F9 /* ReusableView.swift in Sources */,
+				E04492D423DF9580005882F9 /* UITableView+Reusable.swift in Sources */,
+				E04492D923DFB00E005882F9 /* WatchListsAssembly.swift in Sources */,
 				E044927F23DF5B66005882F9 /* AppDelegate.swift in Sources */,
-				E04492A223DF5D44005882F9 /* WatchListViewController.swift in Sources */,
+				E04492D623DF99FD005882F9 /* String+Date.swift in Sources */,
+				E04492C223DF80AD005882F9 /* WatchListsViewController.swift in Sources */,
+				E04492D223DF933F005882F9 /* NibLoadableView.swift in Sources */,
 				E04492A723DF5F6D005882F9 /* Endpoint.swift in Sources */,
+				E04492CB23DF82F2005882F9 /* TabCell.swift in Sources */,
+				E04492B723DF757C005882F9 /* WatchListPage.swift in Sources */,
+				E04492B523DF750A005882F9 /* WatchList.swift in Sources */,
+				E04492CE23DF90F3005882F9 /* WatchListHeader.swift in Sources */,
+				E04492BD23DF7CB7005882F9 /* WatchListsPresenter.swift in Sources */,
 				E044928123DF5B66005882F9 /* SceneDelegate.swift in Sources */,
+				E04492B323DF7442005882F9 /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
