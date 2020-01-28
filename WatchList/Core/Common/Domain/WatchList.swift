@@ -12,11 +12,15 @@ import Foundation
 struct WatchList: Decodable {
     let id: Int
     let title: String
-    let tabs: [Tab]
+    var tabs: [Tab]
     
     private enum CodingKeys: String, CodingKey {
         case id = "Id"
         case title = "Title"
         case tabs = "Tabs"
     }
+}
+
+enum WatchListType: String {
+    case media
 }

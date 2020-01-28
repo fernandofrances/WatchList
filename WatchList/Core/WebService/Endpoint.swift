@@ -9,7 +9,7 @@
 import Foundation
 
 enum Endpoint {
-    case watchList(type: String)
+    case watchList(type: WatchListType)
 }
 
 extension Endpoint {
@@ -48,7 +48,7 @@ private extension Endpoint {
     var parameters: [String: String] {
         switch self {
         case .watchList(let type):
-            return ["alt": type]
+            return ["alt": type.rawValue]
         }
     }
 }

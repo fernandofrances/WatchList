@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct WatchListPage {
+struct WatchListPage: Decodable {
     let results: [WatchList]
     
     private enum CodingKeys: String, CodingKey {
-        case results = "WatchListTabs"
+        case results = "WatchlistTabs"
     }
 }
